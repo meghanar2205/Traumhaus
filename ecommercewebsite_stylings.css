@@ -1,0 +1,293 @@
+*
+{
+	border:0;
+	padding:0;
+	margin:0;
+}
+body
+{
+	overflow-x:hidden;
+}
+.center
+{
+	text-align:center;
+}
+nav
+{
+	box-shadow:2px 2px 5px black;
+	background-color:white;
+}
+.im_g
+{
+	max-height:30px;
+	max-width:30px;
+	//padding:14px;
+	//margin:0 0 20px 0;
+}
+.navg
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	list-style-type:none;
+	//box-shadow:2px 2px 3px black;
+}
+.navg li 
+{
+	padding:20px;
+}
+.navg li a:hover, .navg li a.active
+{
+	color:red;
+	text-decoration:none;
+}
+.nav li
+{
+	padding:15px;
+	text-align:center;
+}
+.item img
+{
+	max-height:500px;
+	width:100%;
+	text-align:center;
+}
+#houses_for_sale .col-md-4
+{
+	border:1px solid #7ff0bb;
+	max-width:350px;
+	border-radius:10%;
+	margin:10px;
+	padding-bottom:10px;
+}
+#houses_for_sale .col-md-4:hover
+{
+	box-shadow:2px 2px 5px green;
+}
+#houses_for_sale img
+{
+	margin-top:10px;
+}
+#news_letter
+{
+	margin:50px 0;
+	background-color:#000099;
+	padding:50px 30px;
+}
+.email_styl
+{
+	width:70%;
+	padding:20px;
+	margin-right:0;
+	background-color:white;
+	//border:1px solid black;
+	border-right:none;
+}
+#nlb
+{
+	padding:20px;
+	color:white;
+	background-color:#3DCAB5;
+	margin-left:0;
+}
+#news_letter .text_style h2,#news_letter .text_style p
+{
+	color:white;
+}
+#news_letter .text_style span
+{
+	color:#ff9900;
+}
+footer
+{
+	background-color:black;
+	color:white;
+	//max-height:1000px;
+	padding:50px 50px 20px 50px;
+}
+.cpy_rgt_clr
+{
+	color:#fc9403;
+}
+.newline
+{
+	display:block;
+}
+.container .row .col-md-3 ul
+{
+	list-style-type:none;
+}
+.follow
+{
+	display:inline;
+	padding:5px;
+	
+}
+.follow a
+{
+	color:orange;
+}
+.follow a:hover
+{
+	border:5px solid transparent;
+	border-radius:50%;
+	background-color:#03fcbe;
+	color:black;
+	font-size:14px;
+}
+.inline_text
+{
+	display:inline;
+}
+.for_space col-md-3
+{
+	//padding:20px;
+}
+.forstyle a
+{
+	display:block;
+	padding:5px;
+	color:white;
+	text-align:left;
+	margin-left:100px;
+}
+.forstyle a:hover
+{
+	text-decoration:none;
+	color:yellow;
+}
+.container .row .col-md-4 h4
+{
+	text-decoration:underline;
+}
+.download img
+{
+	min-width:80px;
+	min-height:20px;
+	max-width:130px;
+	max-height:40px;
+}
+#Features_offered .col-md-3
+{
+	border:1px solid gray;
+	max-width:250px;
+	margin:10px;
+	min-height:100px;
+	border-radius:20%;
+	box-shadow:3px 3px 5px green;
+	padding-top:20px;
+}
+.individual_house 
+{
+	margin-top:60px;
+	padding:30px 0 0 0;
+}
+.individual_house .container .row .container
+{
+	width:700px;
+}
+.individual_house .main_imgclass
+{
+	max-height:100%;
+	max-width:100%;
+}
+.individual_house .subimagesgroup
+{
+	margin-top:4px;
+}
+.individual_house .subimagessty
+{
+	display:inline;
+	margin:1px;
+	cursor:pointer;
+}
+.individual_house .container .row .col-md-7 
+{
+	padding:10px;
+	margin:0;
+
+}
+#similarhouses h2
+{
+	color:blue;
+	text-align:center;	
+	weight:100px;
+}
+#similarhouses a img
+{
+	margin:5px;
+}
+#pagination ul li
+{
+	list-tsyle-type:none;
+	display:inline;
+	padding:5px;
+}
+#pagination ul li a
+{
+	background-color:#b05125;
+	color:white;
+	border-radius:50%;
+	padding:10px;
+	text-decoration:none;
+}
+#user_reviews
+{
+	margin-top:70px;
+}
+#user_reviews h2
+{
+	color:#42f5f5;
+}
+#user_reviews .container .reviewstyle .ImagePart img
+{
+	float:left;
+	margin-right:20px;
+	width:40%;
+}
+#user_reviews .container .reviewstyle .date
+{
+	color:#d7e0e0;
+}
+#contact_details
+{
+	margin-top:100px;
+}
+#contact_details ul li
+{
+	list-style-type:none;
+	font-size:20px;
+}
+#contact_details .container .about_ownership img
+{
+	float:right;
+	padding:0;
+}
+.forpadding
+{
+	padding:20px;
+}
+#Checkout 
+{
+	margin-top:100px;
+}
+#Checkout .user_details form
+{
+	font-size:17px;
+}
+#Checkout form .star
+{
+	font-size:20px;
+	color:red;
+} 
+#Checkout .user_details form input
+{
+	border:1px solid black;
+	max-width:40%;
+} 
+.clearfix
+{	
+	content:"";
+	clear:both;	
+	display:table;
+}
