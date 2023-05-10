@@ -291,3 +291,16 @@ footer
 	clear:both;	
 	display:table;
 }
+@media only screen and (max-width:600px)
+{
+	#main_imgclass img
+	{
+		width:250px;
+		height:250px;
+	}
+	.subimagessty img
+	{
+		width:60px;
+		height:80px;
+	}
+}
